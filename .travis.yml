@@ -19,6 +19,7 @@ before_script:
 
 script:
   - ./check.sh
+  - echo "$DOCKER_USERNAME - $DOCKER_PASSWORD"
 
 after_success:
   - docker stop clair
