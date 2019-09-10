@@ -1,5 +1,8 @@
 #!/bin/bash
 
+set -ex
+set
+
 CONTAINER="${1:-clair}"
 
 while true
